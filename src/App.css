@@ -16,3 +16,33 @@ h1{
   gap: 20px;
   
 }
+
+
+.football{
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 1rem;
+ 
+}
+
+
+.football-container{
+  display: flex;
+  gap: 20px;
+  
+}
+
+
+.gaming{
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 1rem;
+ 
+}
+
+
+.gaming-container{
+  display: flex;
+  gap: 20px;
+  
+}
