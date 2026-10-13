@@ -1,10 +1,11 @@
 import React from 'react'
+import style from './Football.module.css'
 
 type Props = {}
 
 export default function Football({}: Props) {
   return (
-    <div className="football">
+    <div className={style.football}>
         <h2>Football</h2>
         <img src= "https://fastly.picsum.photos/id/1054/200/300.jpg?hmac=2AMkQJkHozCbGVYoPJsFwSYmOfmPcPMYd0RtXMm-I2A" alt="Hero Image" />
         <p>made by Kilian</p>

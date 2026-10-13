@@ -1,50 +1,28 @@
-import { useState } from 'react'
-
-import './App.css'
-import Card from './components/Card'
-import Football from './components/Football'
-import Gaming from './components/Gaming'
+import Card from "./components/Card";
+import CardContainer from "./components/CardContainer";
+import Football from "./components/Football";
+import FootballContainer from "./components/FootballContainer";
+import Gaming from "./components/Gaming";
+import GamingContainer from "./components/GamingContainer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <h1>Willkommen</h1>
-     <div className="card-container">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      
-
+      <div className="card-container"></div>
+      <CardContainer />
      
-     
-     </div>
-
       <div className="football-container">
-          <Football />  
-          <Football />
-          <Football />
-          <Football />
-          <Football />
-          <Football />
+        <FootballContainer   />
+    
       </div>
 
-
-
-      <div className="gaming-container">
-          <Gaming />  
-          <Gaming />
-          <Gaming />
-          <Gaming />
-          <Gaming />
-          <Gaming />
+      <div className="gamingcontainer">
+        <GamingContainer />
+      
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
