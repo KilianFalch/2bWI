@@ -1,4 +1,3 @@
-import React from "react";
 import Gaming from "./Gaming";
 import style from "./GamingContainer.module.css";
 
