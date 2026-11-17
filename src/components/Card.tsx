@@ -1,14 +1,18 @@
 import React from 'react'
 import style from './Card.module.css'
 
-type Props = {}
+type Props = {
+  title: string;
+  text: string;
+  image: string;  
+}
 
-export default function Card({}: Props) {
+export default function Card({ title, text, image }: Props) {
   return (
        <div className={style.card} >
-          <h2>Susi</h2>
-          <img src= "https://fastly.picsum.photos/id/1004/200/300.jpg?hmac=U8xLjv1wDsnhRH90oqnEvk2hvspq7UPzpU8Z9TtIxZM" alt="Hero Image" /> 
-          <p>made by andi</p>
+          <h2>{title}</h2>
+          <img src={image} alt="Hero Image" /> 
+          <p>{text}w</p>
       </div>
   )
 }

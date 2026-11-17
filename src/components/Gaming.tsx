@@ -1,16 +1,20 @@
 import style from "./Gaming.module.css";
 
-type Props = {};
+type Props = {
+  title: string;
+  text: string;
+  image: string;
+};
 
-export default function Gaming({}: Props) {
+export default function Gaming({ title, text, image }: Props) {
   return (
     <div className={style.gaming}>
-      <h2>Gaming</h2>
+      <h2>{title}</h2>
       <img
-        src="https://fastly.picsum.photos/id/227/200/300.jpg?hmac=t3Ir7I6CJr-OrWOq4QVsRQTjpp03ce7vtDA3-NLdm-c"
+        src={image}
         alt="Hero Image"
       />
-      <p>made by Tim</p>
+      <p>{text}</p>
     </div>
   );
 }
