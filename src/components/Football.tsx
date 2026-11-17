@@ -1,5 +1,4 @@
-import React from 'react'
-import style from './Football.module.css'
+import style from './Football.module.css';
 
 type Props = {
   title: string;

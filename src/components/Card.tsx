@@ -1,5 +1,4 @@
-import React from 'react'
-import style from './Card.module.css'
+import style from './Card.module.css';
 
 type Props = {
   title: string;

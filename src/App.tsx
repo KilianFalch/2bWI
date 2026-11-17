@@ -1,6 +1,7 @@
 import CardContainer from "./components/CardContainer";
 import FootballContainer from "./components/FootballContainer";
 import GamingContainer from "./components/GamingContainer";
+import TimContainer from "./components/TimContainer";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
 
       <div className="gamingcontainer">
         <GamingContainer />
+      </div>
+
+      <div className="timcontainer">
+        <TimContainer />
       </div>
     </>
   );
